@@ -4,4 +4,4 @@
 
 </h1><br> --> 
 
-![PyPI - Version](https://img.shields.io/pypi/v/axm?style=for-the-badge&logo=python&logoColor=%23FFF&color=%233776AB)
+![PyPI - Version](https://img.shields.io/pypi/v/sifty?pypiBaseUrl=https%3A%2F%2Fpypi.org%2Fp%2Fsifty&style=for-the-badge&logo=python&logoColor=%23fff)
