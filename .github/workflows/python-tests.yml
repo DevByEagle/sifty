@@ -31,4 +31,5 @@ jobs:
 
     - name: Run tests
       run: |
+        cd sifty/tests
         pytest  # or your preferred test command
