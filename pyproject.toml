@@ -1,0 +1,35 @@
+[build-system]
+
+requires = ["setuptools>=42", "wheel"]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axm"
+version = "1.0.0"
+license = {file = "LICENSE.txt"}
+description = ""
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+	#'Development Status :: 4 - Beta', / 'Development Status :: 5 - Production/Stable',
+    	'License :: OSI Approved :: MIT License',
+    	'Intended Audience :: Developers',
+    	'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.10',
+    	'Programming Language :: Python :: 3.11',
+    	'Programming Language :: Python :: 3.12',
+    	'Programming Language :: Python :: 3.13',	
+	'Topic :: Software Development',
+]
+
+[project.urls]
+source = "https://github.com/DevByEagle/axm"
+download = "https://pypi.org/project/axm/#files"
+tracker = "https://github.com/DevByEagle/axm/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+include = ["axm*"]
+
