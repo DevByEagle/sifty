@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Install Dependencies
-      run: python3 test.py
+    - name: run
+      run: |
+       cd ..
+       python3 test.py
