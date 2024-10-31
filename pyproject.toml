@@ -1,13 +1,13 @@
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "sifty"
 version = "1.0.0"
-license = "MIT"
+license = {file = "LICENSE.txt"}
 description = ""
-requires-python = ">=3.10"
+#requires-python = ">=3.10"
 readme = "README.md"
 classifiers = [
 	#'Development Status :: 4 - Beta', / 'Development Status :: 5 - Production/Stable',
@@ -20,6 +20,7 @@ classifiers = [
     	'Programming Language :: Python :: 3.13',	
 	'Topic :: Software Development',
 ]
+dependencies = []
 
 [project.urls]
 source = "https://github.com/DevByEagle/sifty"
