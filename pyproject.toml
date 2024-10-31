@@ -1,13 +1,11 @@
 [build-system]
-
 requires = ["setuptools>=42", "wheel"]
-
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "axm"
+name = "sifty"
 version = "1.0.0"
-license = {file = "LICENSE.txt"}
+license = "MIT"
 description = ""
 requires-python = ">=3.10"
 readme = "README.md"
@@ -24,11 +22,10 @@ classifiers = [
 ]
 
 [project.urls]
-source = "https://github.com/DevByEagle/axm"
-download = "https://pypi.org/project/axm/#files"
-tracker = "https://github.com/DevByEagle/axm/issues"
+source = "https://github.com/DevByEagle/sifty"
+download = "https://pypi.org/project/sifty/#files"
+tracker = "https://github.com/DevByEagle/sifty/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-
-include = ["axm*"]
+include = ["sifty*"]
