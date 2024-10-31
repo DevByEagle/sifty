@@ -32,4 +32,3 @@ tracker = "https://github.com/DevByEagle/axm/issues"
 where = ["."]
 
 include = ["axm*"]
-
