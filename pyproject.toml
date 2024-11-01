@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sifty"
-version = "1.0.0"
+version = "1.0.2"
 license = {file = "LICENSE.txt"}
 description = ""
 #requires-python = ">=3.10"
@@ -20,7 +20,8 @@ classifiers = [
     	'Programming Language :: Python :: 3.13',	
 	'Topic :: Software Development',
 ]
-dependencies = []
+dependencies = [
+]
 
 [project.urls]
 source = "https://github.com/DevByEagle/sifty"
